@@ -18,6 +18,8 @@ function continueGame(){
   const C_Alphabet = document.getElementById('cuttentAlphabet');
   C_Alphabet.innerText = RandomAlphabet;
 
+  setBgById(RandomAlphabet)
+
 }
 
 function playNow(){
